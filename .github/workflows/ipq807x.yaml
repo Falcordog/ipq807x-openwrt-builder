@@ -58,6 +58,10 @@ jobs:
           echo "CONFIG_PACKAGE_luci=y\n" >> .config
           #echo "CONFIG_PACKAGE_nss-firmware-ipq8074=y\n" >> .config
           echo "CONFIG_PACKAGE_kmod-qca-nss-dp=y" >> .config
+          echo "CONFIG_PACKAGE_kmod-batman-adv=y" >> .config
+          echo "CONFIG_PACKAGE_kmod-lib-crc16=y" >> .config
+          echo "CONFIG_PACKAGE_kmod-tun=y" >> .config
+          echo "CONFIG_PACKAGE_batmand=y" >> .config
           #echo "CONFIG_PACKAGE_kmod-qca-nss-drv-pppoe=y\n" >> .config
           #echo "CONFIG_PACKAGE_kmod-qca-nss-ecm=y\n" >> .config
           #echo "CONFIG_PACKAGE_kmod-qca-nss-drv-bridge-mgr=y\n" >> .config
